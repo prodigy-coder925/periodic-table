@@ -1,11 +1,13 @@
-body{
+body {
     background-color: ghostwhite;
     color: white;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-h1,h2{
+
+h1,
+h2 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -14,7 +16,8 @@ h1,h2{
     background-color: dodgerblue;
 
 }
-.container{
+
+.container {
     box-sizing: border-box;
     background-color: aliceblue;
 }
@@ -24,123 +27,140 @@ h1,h2{
     background-color: dodgerblue;
     padding: 2rem 0rem;
     flex-wrap: wrap;
-    border-top: 2px solid  black;
-    border-bottom: 2px solid  black;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
-.container ul li{
-    border-bottom: 2px solid  white;
+
+.container ul li {
+    border-bottom: 2px solid white;
     margin: 0 .3rem;
     padding: 0 .2rem;
     list-style-type: none;
     cursor: pointer;
 }
-.container ul li:hover{
-    transform: scale(1.2,1.2);
+
+.container ul li:hover {
+    transform: scale(1.2, 1.2);
 }
 
 
-.selected{
+.selected {
     border: 1px solid black;
-    transform: rotate(5deg) scale(1.2,1.2);
+    transform: rotate(5deg) scale(1.2, 1.2);
 }
 
 /* Legends  */
-.transition{
-    background-color: blueviolet ;
+.transition {
+    background-color: blueviolet;
 }
-.post-tr{
+
+.post-tr {
     background-color: dodgerblue;
 }
-.alkali{
+
+.alkali {
     background-color: cornflowerblue;
 }
-.alkaline-earth{
+
+.alkaline-earth {
     background-color: tomato;
 }
-.metalloid{
+
+.metalloid {
     background-color: burlywood;
 }
-.noble-gases{
+
+.noble-gases {
     background-color: palevioletred;
 }
-.unknown{
+
+.unknown {
     background-color: thistle;
 }
-.lanthanides{
+
+.lanthanides {
     background-color: hotpink;
 }
-.actinides{
+
+.actinides {
     background-color: darkmagenta;
 }
-.reactive-nonmetals{
+
+.reactive-nonmetals {
     background-color: slateblue;
 }
 
- /* Table   */
+/* Table   */
 
-sup{
+sup {
     padding-right: 1px;
     font-size: 6px;
     font-weight: bolder;
 }
-span{
+
+span {
     font-size: 7px;
     font-weight: bolder;
 }
 
-table{
+table {
     border-spacing: 0px;
 }
 
-td{
+td {
     border: 1px solid white;
     cursor: pointer;
     /* height: 20px; */
     /* width: 2px; */
     transition: all ease-in .1s;
 }
-td:hover{
+
+td:hover {
     /* transform: ; */
-    transform: scale(2,2);
+    transform: scale(2, 2);
 }
 
-td[blank]{
+td[blank] {
     border: none;
 }
 
-td[transition]{
-    background-color: blueviolet ;
+td[transition] {
+    background-color: blueviolet;
 }
 
 td[post-tr] {
     background-color: dodgerblue;
 }
 
-td[alkali]{
+td[alkali] {
     background-color: cornflowerblue;
 }
 
-td[alkaline-earth]{
+td[alkaline-earth] {
     background-color: tomato;
 }
 
-td[metalloid]{
+td[metalloid] {
     background-color: burlywood;
 }
 
-td[noble-gases]{
+td[noble-gases] {
     background-color: palevioletred;
 }
 
-td[unknown]{
+td[unknown] {
     background-color: thistle;
 }
-td[lanthanides]{
+
+td[lanthanides] {
     background-color: hotpink;
 }
-td[actinides]{
+
+td[actinides] {
     background-color: darkmagenta;
 }
-td[reactive-nonmetals]{
+
+td[reactive-nonmetals] {
     background-color: slateblue;
 }
